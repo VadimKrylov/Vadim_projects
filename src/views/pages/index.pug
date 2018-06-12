@@ -1,0 +1,28 @@
+extends ../auth.layout.pug
+
+block content
+  .author__block
+    .author__block-content
+      .author__block-user
+        .user
+          .user__pic
+            img.user__pic-img(src="", alt="")
+          .user__description
+            .user__name Владимир Астахов
+            .user__info Личный сайт разработчика
+      .author__block-socials
+        +socials(socials, )
+
+
+//- посмотреть, как Jonas реализовал это в проекте udemy 
+
+  h1 Главная
+  form 
+    label(for="email") email
+    input(name="email" id="email")
+    label(for="password") password
+    input(name="password" id="password")
+    button Войти
+  .hello-world
+    +icon('check', 'hello-world__block')
+    .inlined-svg

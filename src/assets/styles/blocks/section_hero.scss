@@ -1,0 +1,49 @@
+
+
+.hero {
+  background-image: linear-gradient(to bottom, #6ba2a7a1, #22576c95),url('../src/assets/images/about/bg.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  height: 600px;
+  clip-path: polygon(0 0, 100% 0, 100% 80%, 50% 100%, 0 80%);
+}
+
+.socials {
+  position: absolute;
+  top: 30px;
+  left: 30px;
+  display: flex;
+  flex-direction: row;
+  background-color: red;
+}
+
+.socials__item {
+  width: 35px;
+  height: 35px;
+}
+
+
+
+.hero__menu {
+  position: absolute;
+  top: 30px;
+  right: 30px;
+  width: 30px;
+  height: 30px;
+  background-color: red;
+}
+
+.hero__down-btns {
+  position: absolute;
+  display: inline-block;
+  background-image: url(../src/assets/images/icons/arrow_down.svg);
+  width: 40px;
+  height: 40px;
+
+  top: 90%;
+  left: 49%;
+
+}
+ 

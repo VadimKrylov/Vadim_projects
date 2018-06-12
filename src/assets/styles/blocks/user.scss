@@ -1,0 +1,37 @@
+
+
+.hero__user {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+
+.user {
+  &__pic-img {
+  background: url('../src/assets/images/about/auth.jpg') center center / cover no-repeat;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+  &__description {
+    text-align: center;
+  }
+  &__name, &__info {
+    font-family: 'fontawesome', Arial, Helvetica, sans-serif;
+    color: #fff;
+  }
+  &__name {
+    font-weight: 500;
+    font-size: 30px;
+  }
+  &__info {
+    font-weight: 100;
+    font-size: 13px;
+  }
+}
+

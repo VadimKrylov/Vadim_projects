@@ -1,0 +1,24 @@
+
+
+// используем clip-path https://css-tricks.com/working-with-shapes-in-web-design/ 
+// https://bennettfeely.com/clippy/
+
+.about {
+  display: flex;
+  flex-direction: row;
+  // flex-basis: 50%;
+}
+
+.about__left, .about__right {
+  flex-basis: 50%;
+  display: flex;
+}
+
+.about__left {
+  padding: 0 20px 120px 90px;
+  display: flex;
+  &-title {
+    display: block;
+    flex-basis: 250px;
+  }
+}
